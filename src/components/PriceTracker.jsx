@@ -111,7 +111,7 @@ export default function PriceTracker() {
             )}
           </p>
         </div>
-        <MiniChart coin={selectedCoin} price={currentPrices[selectedCoin]} />
+        {/* <MiniChart coin={selectedCoin} price={currentPrices[selectedCoin]} /> */}
       </div>
 
       {/* เพิ่มราคาซื้อ */}
